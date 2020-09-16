@@ -6,7 +6,7 @@ using System.IO;
 
 namespace Microsoft.Build.Shared
 {
-    public static class FileUtilities
+    internal static class FileUtilities
     {
         /// <summary>
         /// A variation of Path.GetFullPath that will return the input value
