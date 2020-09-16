@@ -1,13 +1,10 @@
-# sln
+[![Nuget](https://img.shields.io/nuget/v/Sln)](https://nuget.org/packages/Sln)
 
-sln parser
+__Note:__ Unless you want to support reading files inside solution folders, use [the official `Microsoft.Build` package](https://nuget.org/packages/Microsoft.Build) instead.
 
-## Build
+See more at https://github.com/Microsoft/msbuild/issues/1708#issuecomment-280693611
 
-to create packages:
+Reuse some source files from https://github.com/Microsoft/msbuild/ repo
+and reimplement some classes to not import too many files.
 
-```
-dotnet msbuild build.proj
-```
-
-will create packages in `build\nupkgs`
+Since version 0.4.0, the library's namespace is `EnricoSada.MSBuild` to allow using it side-by-side with `Microsoft.Build`.
