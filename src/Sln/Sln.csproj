@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <Description>A .NET solution file parser that can recognize projects inside solution folders.
+    <Description>A .NET solution file parser that can recognize standalone files inside solution folders.
 If your project does not need this feature, use the official Microsoft.Build package instead.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <DefineConstants>FULL_SLN_PARSER;STANDALONEBUILD;$(DefineConstants)</DefineConstants>
